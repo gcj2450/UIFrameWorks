@@ -1,0 +1,11 @@
+每一个View均需要继承自BaseView，并且都要对应的有一个继承自BaseViewAction的ViewAction。
+View负责界面逻辑，ViewAction负责接收事件。
+每新建一对View和ViewAction 都需要在UIActionRegister 的RegisterViewActions方法中添加到字典中
+新建的View需要重写ViewBind方法，实现View和Action的绑定。例如：
+public override void ViewBind()
+    {
+        base.ViewBind();
+
+        RegisterAction(typeof(TestViewAction).Name);
+    }
+
