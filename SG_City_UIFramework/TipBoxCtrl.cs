@@ -5,25 +5,25 @@ using UnityEngine.UI;
 public class TipBoxCtrl : AbstractBasePanelCtrl
 {
 
-    //private static TipBoxCtrl mInstance;
+    private static TipBoxCtrl mInstance;
 
-    //public static TipBoxCtrl Instance
-    //{
-    //    get
-    //    {
-    //        if (mInstance == null)
-    //        {
-    //            mInstance = FindObjectOfType(typeof(TipBoxCtrl)) as TipBoxCtrl;
-    //        }
-    //        return mInstance;
-    //    }
-    //}
+    public static TipBoxCtrl Instance
+    {
+        get
+        {
+            if (mInstance == null)
+            {
+                mInstance = FindObjectOfType(typeof(TipBoxCtrl)) as TipBoxCtrl;
+            }
+            return mInstance;
+        }
+    }
 
     protected override void Awake()
     {
         base.Awake();
-        //mInstance = this;
-        //DontDestroyOnLoad(this);
+        mInstance = this;
+        DontDestroyOnLoad(this);
     }
 
 

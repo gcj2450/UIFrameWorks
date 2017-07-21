@@ -6,9 +6,13 @@ using System.IO;
 
 public abstract class BaseView : MonoBehaviour
 {
+    protected System.Object sender;
+    protected ChangeUIEventArgs changeUIEventArgs;
+
     public virtual void Init(object sender,ChangeUIEventArgs args)
 	{
-        
+        this.sender = sender;
+        this.changeUIEventArgs = args;
 	}
 
     /// <summary>

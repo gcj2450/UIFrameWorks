@@ -38,7 +38,8 @@ public abstract class AbstractItem: MonoBehaviour
             isInitComplete = true;
             Init(sender, args);
         }
-        UpdateItem(sender, args);
+        else
+            UpdateItem(sender, args);
     }
     /// <summary>
     /// 初始化Item内容
