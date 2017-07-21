@@ -1,0 +1,1396 @@
+abc=hello,world
+def=中文哈哈
+
+develop.build.version = 内测版 V0.9
+quit.comfirm = 请问是否确定退出游戏？
+net.syn.timeout = 对不起，网络连接超时。
+net.syn.connectFailure = 对不起，网络连接错误，请检查网络连接。
+net.syn.webExecption = 对不起，网络请求失败。
+pvp.net.connect.faild = 对不起，连接服务器失败，返回重试。
+pvp.net.connect.lost = 对不起，网络连接已断开，返回重试。
+
+account.logout = 确定注销账号?
+blacklist.check.invalidProgress=因运行作弊程序，游戏即将自动结束。
+
+version.update.button.now = 立即更新
+version.update.button.latter = 稍后更新
+version.update.title = 版本更新
+
+common.time.default.time = 00:00:00
+common.time.format.d = {0}天
+common.time.format.h = {0}小时
+common.time.format.m = {0}分
+common.time.format.s = {0}秒
+common.time.format.cm = {0}分钟
+
+common.time.format.english.countdown = {0:00}:{1:00}:{2:00}
+
+player.name = 主公:{0}
+player.position = 官职:{0}
+player.fame = 声望:{0}
+player.league = 城邦:{0}
+player.league.no = 无
+
+
+upgrade.pic.title = {0}升级
+upgrade.cur.level = [#f0d499]{0}级
+upgrade.condition = 升级条件：
+upgrade.position = 官府{0}级
+upgrade.lefttime = 所需时间：{0}
+upgrade.btn.text = 升级
+upgrade.max.level.info = 已经到达最高等级!
+
+login.maintitle = 请决定您的统帅名称，并选择您的头像
+login.input.left = 统帅名称
+login.input.tip = [#ff0000]已被使用
+login.ava.title = 挑选头像
+login.btn.ok = [#f0d399]开始游戏
+login.name.tip = [#ff0000]统帅名仅可以使用汉字、英文字母、数字组成
+login.toggle.info = 阅读并同意
+
+pve.intro.firstarmy = 主公，请选择您的进攻部队并滑动手指让部队前进到敌方位置。
+pve.intro.leftarmy = 做的很好，主公是个帅才，消灭了一支黄巾军部队，现在就消灭掉另外的两支部队吧！
+pve.intro.wall = 敌方的部队已经都被消灭，但是黄巾军的城门尚未攻破，请主公将部队移至城门进行攻击。
+pve.fail = 胜败乃兵家常事，虽然主公暂时未能战胜流寇，我们可重整旗鼓，来日再战。
+city.intro.gov = 主公已经夺下了黄巾军城池，但已经受到严重破坏，百废待兴。请先点击官府进行升级。
+city.intro.food = 粮食是很重要的资源，请点击农田，选择收获时间，粮食生产成功后，点击农田即可收获粮食。
+city.intro.food.crop = 我们的城池可以生产铁、石、木、粮四种资源，是我们建设的基础主公请注意，石矿和铁矿分别在城北和城东处，$民居则可以为你的城市提供足够的金钱来源。
+city.intro.army = 缺乏有效的作战部队，不足在战场中取胜，请按图示训练更多军队。
+city.intro.general = 千军易得，一将难求，点将台是招募武将的场所。好的武将会给战斗带来意想不到的效果。
+city.intro.wall = 为了防止敌人袭击我们的城池，我们一定要设定好防守兵力，点击城墙就可以设定防守将领和防守部队。
+guide.end = 现在城池已经初具规模，相信主公一定能够以此为基础，成就一番事业！
+
+btn.yes = 是
+btn.no = 否
+btn.ok = 确定
+
+crop.res.type.2.title = 征收金币
+crop.res.type.3.title = 种植粮食
+crop.res.type.4.title = 开采石矿
+crop.res.type.5.title = 开采铁矿
+crop.res.type.6.title = 砍伐木材
+crop.res.type.102.title = 征收金币
+crop.res.type.103.title = 种植粮食
+crop.res.type.104.title = 开采石矿
+crop.res.type.105.title = 开采铁矿
+crop.res.type.106.title = 砍伐木材
+crop.res.needlevel = 需{0}{1}级
+crop.res.provide.num = +{0}
+
+produce.panel.title = 生产剩余时间
+produce.panel.seeding = 正在进行
+produce.panel.croping = 正在收获
+
+crop.delta.3 = 粮食 +{0} 
+crop.delta.4 = 石料 +{0} 
+crop.delta.5 = 铁矿 +{0} 
+crop.delta.6 = 木材 +{0} 
+crop.delta.2 = 金币 +{0}
+crop.delta.103 = 粮食 +{0} 
+crop.delta.104 = 石料 +{0} 
+crop.delta.105 = 铁矿 +{0} 
+crop.delta.106 = 木材 +{0} 
+crop.delta.102 = 金币 +{0} 
+crop.delta.slave = 上贡-{0}
+
+
+army.manager.tabname.0 = [#000000]军队管理
+army.manager.tabname.1 = [#000000]训练中
+army.manager.tabname.2 = [#000000]伤兵营
+army.manager.tabname.3 = [#000000]伤兵改良
+
+army.manager.panel.0.title = [#000000]兵营，练兵重地！在此可以训练自己的军队。
+army.manager.panel.1.title = [#000000]兵营，练兵重地！在此可以管理自己正在训练的军队。
+army.manager.panel.2.title = [#000000]兵营，练兵重地！伤兵营是容纳治疗伤兵的场所。
+army.manager.panel.3.title = [#000000]兵营，练兵重地！此处为改良伤兵进入伤兵营的比率。
+
+army.mgr.select.count = 现有{0}
+
+army.pric.time = 训练时间：{0}
+army.pric.count = 训练数量：{0}
+army.pric.space = 人口空间：{0}
+army.pric.title = 训练
+army.pric.condition.title = 条件
+army.pric.condition.attr = 属性
+army.pric.attack = 攻击：{0}
+army.pric.defence = 防御：{0}
+army.pric.range = 范围：{0}
+army.pric.fightpower = 战力：{0}
+army.pric.movespeed = 速度：{0}
+army.pric.expcostfood = 出征耗粮：{0}
+army.pric.leftlevel = {0}:
+army.pric.rightlevel = {0}级
+army.pric.tip.vip = 主公,训兵队列已满，购买VIP1可提升训兵队列，前往购买?
+
+
+disp.queue.pic.pric = [#000000]训练队列 
+disp.queue.title = [#000000]训练中
+disp.queue.noqueue = [#000000]目前还没有正在训练的部队！
+disp.queue.army.count = 训练数量：{0}
+disp.queue.army.time = 剩余时间：{0}
+disp.queue.waittitle = [#000000]等待中
+disp.queue.army.waittime = 训练时间：{0}
+disp.queue.speedup = [#f0d399]加速
+disp.queue.cancel = [#f0d399]取消
+disp.queue.cancel.comfirm = 主公，您确定要需要训兵吗？训练消耗的资源就白白浪费了哟！
+disp.queue.startdisp = 立即训练
+disp.queue.speed.once = 主公,一个训兵队列只能使用一次加速!
+
+
+exp.army.count.left = [#000000]出征数量
+exp.army.fight.left = [#000000]战力
+exp.gen.fight.left = [#000000]战力:
+exp.explicit.info = 出兵详情：
+exp.army.costfood = [#541b00]耗粮:
+exp.army.total = [#541b00]出兵总数:
+exp.army.fc.limit = [#541b00]战力限制:
+exp.army.apcost.left = [#541b00]消耗
+exp.army.apcost.left.colon = [#541b00]:
+exp.army.apcount.format = [#000000]{0}/{1}
+exp.army.nocontent = [#000000]没有军队可供派遣！
+exp.gen.none = 没有武将可供派遣！
+exp.gen.unselect = 主公，您还未选择出征武将！
+exp.tip.noactionpoint = 主公，军令不足，出征失败，需进入城池购买军令!
+exp.tip.nofood = 主公，粮食不足，出征失败，进入城池种植粮食吧!
+exp.tip.gen.overflow.fp = 出征军队和武将的战力超出关卡限制
+exp.tip.gen.hurt = 主公，您的武将身负重伤不能出征。
+exp.army.title = 选择兵种(限4种)
+exp.general.title = 选择武将
+exp.bub.tip.btn = 确定
+exp.bub.tip.text = 末将这就前往攻打，预计5分钟之后到达，请主公务必亲临指挥
+exp.tip.army.none = 主公，您必须选择出征军队数量才能出征！
+
+
+army.ill.noqueue = [#000000]您没有需要治疗的伤兵!
+army.ill.desctitle = 说明：治疗伤兵需消耗金币，未治疗的伤兵每天凌晨2点会自动损失30%
+army.ill.pictitle = 治疗伤兵
+army.ill.treatall = [#f0d399]治疗全部
+army.ill.depleteall = [#000000]共消耗
+army.ill.queue.goldbtn = [#f0d399]治疗
+army.ill.queue.illcount = [#000000]受伤：
+army.ill.queue.deplete = [#000000]消耗
+
+battle.timeleft = 等待{0}秒开始
+battle.alarm.title = 警报
+battle.alarm.content = 玩家{0}已经兵临城下，{1}秒后会猛烈攻击您的城池，是否立即投入战斗
+battle.time.waiting = 战争倒计时 {0}
+battle.time.running = 战争进行时 {0}
+battle.time.join = 加入
+battle.report.title.win = 战胜
+battle.report.title.fail = 战败
+battle.report.desc.win = 你打败了{0}
+battle.report.desc.fail = {0}打败了你
+battle.offense.name = [#ffffff]攻方：{0} 
+battle.defense.name = [#ffffff]守方：{0}
+
+storage.tabname.0 = [#000000]我的仓库
+storage.tabname.1 = [#000000]仓库改良
+storage.my.gold.name = [#000000]金币
+storage.my.food.name = [#000000]粮食
+storage.my.wood.name = [#000000]木材
+storage.my.stone.name = [#000000]石料
+storage.my.iron.name = [#000000]铁锭
+storage.my.info.hold = [#000000]存储量
+storage.my.info.protect = [#000000]保护量
+storage.my.res.format = {0}/{1}
+storage.my.info.level = 仓库等级
+
+wall.tab.name.0 = [#000000]城防训练
+wall.tab.name.1 = [#000000]训练中
+wall.tab.name.2 = [#000000]城防改良
+
+wall.panel.0.title = [#ff0000]城墙[#000000]，城防要地！训练城防兵种的场所。
+wall.panel.1.title = [#ff0000]城墙[#000000]，城防要地！在此可以管理自己正在训练的军队。
+wall.panel.2.title = [#ff0000]城墙[#000000]，城防要地！此处为改良城防兵种自动修复比率。
+
+wall.produce.pic.pric = [#000000]训练
+wall.produce.time.left = [#000000]训练时间:
+wall.produce.count.left = [#000000]训练数量:
+wall.produce.space.left = [#000000]城防空间:
+
+wall.produce.pic.cond = [#000000]条件
+wall.produce.cond.building = {0}{1}级
+
+wall.produce.pic.attr = [#000000]属性
+wall.produce.attr.attack.left = [#000000]攻击:
+wall.produce.attr.defence.left = [#000000]防御:
+wall.produce.attr.life.left = [#000000]范围:
+wall.produce.attr.pop.left = [#000000]空间:
+wall.produce.btn.practice = [#f0d399]训练
+wall.produce.citywallspace = [#000000]城防空间:
+wall.produce.citywallspace.format = {0}/{1}
+
+wall.defing.pic.pric = [#000000]训练队列 
+wall.defing.noqueue = [#000000]现在没有正在训练的部队！
+wall.defing.queue.title = [#000000]训练中
+wall.defing.queue.waittitle = [#000000]等待中
+wall.defing.queue.army.count = 训练数量：{0}
+wall.defing.queue.army.time = 剩余时间：{0}
+
+wall.defing.queue.army.waittime = 训练时间：{0}
+wall.defing.queue.speedup = [#f0d399]加速
+wall.defing.queue.startdisp = [#f0d399]立即训练
+wall.defing.queue.cancel = [#f0d399]取消
+wall.defing.queue.speed.once = 一个训兵队列只能使用一次加速!
+
+general.tabname.0 = [#000000]寻访武将
+general.tabname.1 = [#000000]招募武将
+general.tabname.2 = [#000000]我的武将
+general.tabname.3 = [#000000]武将治疗
+general.tabname.4 = [#000000]疗伤改良
+general.tabname.5 = [#000000]武将职能
+general.panel.0.title = [#ff0000]寻访武将[#000000]，只有通过寻访才能寻找到有才能的武将。
+general.panel.1.title = [#ff0000]招募武将[#000000]，寻访到的武将通过此处才可招募成为自己的武将。
+general.panel.2.title = [#ff0000]我的武将[#000000]，招募到的武将都在此处驻扎，随时听候差遣。
+general.panel.3.title =  [#ff0000]武将治疗[#000000]，战后受伤的武将都会在此处休养。
+general.panel.4.title = [#ff0000]伤兵改良[#000000]，改良受伤的武将生命值恢复比率。
+general.panel.5.title = [#ff0000]武将职能[#000000]，任命武将参与职能。提升城池发展效率。
+
+gen.search.title = [#f0d399]寻访城池
+
+gen.search.desc = [#000000]选魅力值高的武将参与寻访，寻访成功概率越高
+gen.nowcash.left = [#000000]现有
+gen.search.stage.item.searching = 寻访中…
+gen.search.btn.cancel = [#f0d399]撤回
+gen.search.btn.begin = [#f0d399]开始寻访
+gen.search.btn.speed = [#f0d399]加速
+
+
+gen.search.stage.info.searchstate = 寻访状态
+gen.search.stage.info.title = 城池信息
+gen.search.stage.info.cond = 寻访条件
+gen.search.stage.name = [#000000]城池名称:
+gen.search.stage.costgold.left = [#000000]盘缠
+gen.search.stage.time = [#000000]寻访时间:
+gen.search.stage.dispacthgen = [#000000]派遣武将:
+
+gen.search.select.dispacthgen = 派遣武将
+gen.search.select.nogen = [#541b00]目前没有武将可供派遣!
+gen.search.btn.submit = [#f0d399]开始寻访
+gen.search.btn.speedup = [#f0d399]加速
+
+gen.search.confirm.content = 主公，是否要召回此武将?
+
+general.comp.att.life = 生命:
+general.comp.att.defence = 防御:
+general.comp.att.attack = 攻击:
+general.comp.att.uplimit = 带兵:
+
+general.comp.att.drill = 司农:
+general.comp.att.produce = 经商:
+general.comp.att.execute = 土木:
+general.comp.att.charm = 魅力:
+
+general.info.comp.msg = 武将详情:
+general.info.comp.skl = [#541b00]技能:
+general.info.comp.genname = [#541b00]姓名:
+general.info.comp.genlevel = [#541b00]等级:
+
+general.recruit.flushtimeleft = [#541b00]停留时间:
+general.recruit.flushtimeright = [#541b00]{0}
+general.recruit.flushbtn = [#f0d399]遣散
+general.recruit.recruitbtn = [#f0d399]招募
+general.recruit.scroll.title = [#f0d399]应征武将
+general.recruit.scroll.count = [#f7ffa3]{0} 人
+general.recruit.content.genpic.title = [#000000]武将属性
+general.recruit.content.sklpic.title = [#000000]武将技能
+general.recruit.content.conpic.title = [#000000]招募条件
+general.my.content.genlevel = [#000000]{0} 级
+general.recruit.content.life = 生命
+general.recruit.content.exp = 经验
+general.recruit.content.expformat = {0}/{1}
+general.recruit.content.attformat = {0}%
+general.recruit.content.skilleffect.cur = [#000000]效果:
+general.recruit.content.skilleffect.next = [#000000]下级效果:
+general.recruit.content.skillname.left = [#000000]{0}:{1}
+general.recruit.content.skillname.right = [#000000]级
+general.recruit.content.skillname.right.unopen = [#000000]未学习
+general.recruit.content.nocontent = [#000000]没有可供招募的武将
+general.recruit.btn.fail = 招募失败，目前点将台只能容纳{0}个武将，请升级点将台
+general.recruit.content.condition = [#000000]招募条件
+
+general.my.scroll.title = [#f0d399]武将列表
+general.my.scroll.count = [#f7ffa3]{0} 人
+general.my.content.pic.genattr = [#000000]武将属性
+general.my.content.pic.genskl = [#000000]武将技能
+general.my.skill.upgradebtn = [#f0d399]升级
+general.my.skill.learnbtn = [#f0d399]学习
+general.my.skill.learn.must.btn = [#f0d399]保证学习
+general.my.skill.learn.probability.btn = [#f0d399]概率学习
+
+general.my.layoffbtn = [#f0d399]解雇
+general.my.need.condition = [#000000]升级条件:
+general.my.nowskillpoint = [#000000]现有   :
+
+general.my.cannotupgradeskill = 技能等级不能超过武将等级！
+general.my.max.skill.level = 技能等级已达到最大等级！
+general.my.cannotopenskill = 确定花费{0}玉石学习{1}技能？学习技能有一定成功几率，学成后会让武将如虎添翼！
+general.my.skill.must.learn.info = 确定花费{0}玉石学习{1}技能？保证学习成功。
+general.my.openskill.not.enough.cash = [#000000]玉石不够!
+general.my.equipment.nodesc = 点击装备
+general.my.equipment.level = lv {0}
+general.my.hasequipcannotlayoff = 绑定装备的武将无法被解雇!
+general.my.confirm.layoff = 确认解雇{0}吗?
+
+
+general.treat.nocontentshow = [#000000]没有武将需要治疗!
+general.treat.table.genname = [#000000]受伤武将
+general.treat.table.genlevel = [#000000]等级 :
+general.treat.table.genlife = [#000000]生命
+general.treat.table.revertTime = [#000000]恢复时间
+general.treat.item.treatbtn = [#f0d399]快速治疗
+
+
+general.func.select.title = 选择武将
+general.func.select.nogen = [#000000]目前没有武将可供任命!
+general.func.select.fullfunc = [#000000]大臣已全部任命。如需任命其他武将，请先撤职现任大臣!
+general.func.list.btn.appoint = [#f0d399]任命
+general.func.list.btn.dismiss = [#f0d399]撤职
+
+general.func.item.1.condesc = [#541b00]中书监令:[#000000]掌管资源开拓。选择土木高的武将可以显著增加木材的产量。
+general.func.item.2.condesc = [#541b00]司金中郎将:[#000000]掌管冶铁、钱币和农具的铸造。选择经商高的武将可以显著增加金币的产量。
+general.func.item.3.condesc = [#541b00]大司空:[#000000]掌管水土及营建工程。选择魅力高的武将可以有效缩短建设升级的时间。
+general.func.item.4.condesc = [#541b00]大司农:[#000000]掌管农业发展。选择司农高的武将可以显著增加粮食的产量。
+
+general.func.item.1.pic = 中书监令
+general.func.item.2.pic = 司金中郎将
+general.func.item.3.pic = 大司空
+general.func.item.4.pic = 大司农
+
+general.func.item.1.proadd = [#000000]增加木材产量:
+general.func.item.2.proadd = [#000000]增加金币产量:
+general.func.item.3.proadd = [#000000]缩短建筑物升级时间:
+general.func.item.4.proadd = [#000000]增加粮食产量:
+
+general.func.item.pro.right = [#000000]{0}%
+general.func.item.exp.gen.left = [#000000]武将共获得经验:
+general.func.item.exp.gen.right = [#000000]+{0}
+general.func.item.desc = [#000000]每1小时增加1点经验
+
+market.buy.tabname = [#000000]购买资源
+market.sell.tabname = [#000000]出售资源
+market.title = [#ff0000]市场[#000000]，向商人买卖资源的场所,每次交易需要花费{0}玉石。
+market.buy.confirm =[#f0d399]确定
+market.buy.item.price = [#000000]单价：{0}
+market.buy.item.num = [#000000]数量：{0}
+market.sell.confirm =[#f0d399]确定
+market.sell.item.price = 单价：{0}
+market.sell.item.num = 数量：{0}
+
+
+mail.panel.0.title = [#ff0000]消息[#000000]，显示游戏内系统和玩家消息，游戏只保存7天历史消息。
+mail.panel.1.title = [#ff0000]消息[#000000]，显示游戏系统发送的各种消息。
+mail.panel.2.title = [#ff0000]消息[#000000]，显示游戏玩家发送的各种消息。
+mail.panel.3.title = [#ff0000]消息[#000000]，在此处编辑回复玩家消息。
+
+mail.tabname.0 = [#000000]全部
+mail.tabname.1 = [#000000]系统
+mail.tabname.2 = [#000000]玩家
+mail.tabname.3 = [#000000]发信
+
+mail.mailbox.title.nomail = [#ffffff]没有相关消息！
+mail.mailbox.title.newmail = [#ffffff]未读消息（{0}）
+mail.mailbox.page.format = [#541b00]{0}/{1}
+
+mail.content.getbtn.text = [#f0d499]领取
+mail.content.replybtn.text = [#f0d499]回复
+mail.content.deletebtn.text = [#f0d499]删除
+mail.content.agreebtn.text = [#f0d499]同意
+mail.content.mailperson = [#541B00]发件人：
+mail.content.mailtime = [#541B00]时间：
+mail.content.mailtitle = [#541B00]标题：
+
+mail.send.person.text = [#000000]收件人
+mail.send.subject.text = [#000000]主题
+mail.send.content.text = [#000000]内容
+mail.send.gm.text = [#f0d499]联系GM
+mail.send.send.text = [#f0d499]发送
+mail.send.gm.title = 意见反馈
+
+mail.del.confirm = 确定删除该消息？
+mail.delall.confirm = 确定删除所有消息？
+
+mail.send.cond.1 = 请输入玩家名字。
+mail.send.cond.2 = 请输入主题。
+mail.send.cond.3 = 请输入内容。
+
+
+rank.tabname.0 = [#000000]玩家排行
+rank.tabname.1 = [#000000]城邦排行
+rank.tabname.2 = [#000000]掠夺排行
+rank.tabname.3 = [#000000]休闲排行
+rank.panel.0.title = [#ff0000]排行榜[#000000]，城池声望高低进行排名，可以和玩家进行交互。
+rank.panel.1.title = [#ff0000]排行榜[#000000]，城邦排行榜。
+rank.panel.2.title = [#ff0000]排行榜[#000000]，按竞技场胜负场数排名。
+rank.panel.3.title = [#ff0000]排行榜[#000000]，妙趣园休闲小游戏积分排行。
+rank.no.rank.data = 暂无排行
+
+rank.player.btns.sendmailtext = [#f0d399]发送消息
+rank.player.sheetTitle.rank = 排名
+rank.player.sheetTitle.player = 玩家
+rank.player.sheetTitle.leaname = 城邦名称
+rank.player.sheetTitle.level = 官府等级
+rank.player.sheetTitle.fame = 声望
+rank.player.sheetTitle.postion = 官职
+rank.player.mine.rank = [#000000]我的排行:
+rank.sgame.sheetTitle.score = 积分
+rank.pvp.sheetTitle.win = 胜
+rank.pvp.sheetTitle.lose = 败
+rank.player.input.default.text = 输入玩家名字
+
+rank.sgame.allbtn.0 = [#f0d399]福从天降
+rank.sgame.allbtn.1 = [#f0d399]落石砸兵
+rank.sgame.allbtn.2 = [#f0d399]滚石阻敌
+
+rank.pvp.allbtn.0 = [#f0d399]总榜
+rank.pvp.allbtn.1 = [#f0d399]月榜
+rank.pvp.allbtn.2 = [#f0d399]周榜
+
+rank.league.sheetTitle.id = ID
+rank.league.sheetTitle.name = 城邦名称
+rank.league.sheetTitle.adminname = 城邦主
+rank.league.sheetTitle.rank = 排名
+rank.league.sheetTitle.honour = 城邦荣誉
+
+tipbox.default.button.text = [#f0d499]确定
+tipbox.default.title.text = 提示
+
+task.lord.say = [#000000]奉天承运，皇帝诏曰：
+task.lord.zhe = [#000000]钦此！
+task.btn.ok = 立刻出战
+task.btn.cancel = 稍后出战
+
+ann.list.unread = 公告(未读{0})
+ann.panel.notice = [#ff0000]公告[#000000],显示游戏版本更新的各种消息。
+ann.tab.title = 公告
+
+report.panel.mailtitle = [#000000]战报信息，游戏只保留7天历史战报信息
+report.del.confirm = 确定删除该信息？
+report.delall.confirm = 确定删除所有信息？
+report.list.unread = 战报(未读{0})
+report.detail.title = 标题: {0}
+report.detail.time = 时间: {0}
+repotr.detail.pro = [#000000]战况：
+report.detail.award.title = 获得:
+report.detail.offense.name = 进攻方 {0}
+report.detail.offense.name1 = 进攻方
+report.detail.defense.name = 防守方 {0}
+report.detail.defense.name1 = 防守方
+report.detail.score.title.1 = 通关评价(掠夺)：
+report.detail.score.title.2 = 通关评价(战役)：
+report.detail.score.title.8 = 通关评价(野外探索)：
+report.detail.score.title.ali.1 = 通关评价：
+report.detail.zhan.li.pin = 战利品：
+report.panel.noitem = 暂无内容!
+
+
+report.reward.title.win = 战利品:
+report.reward.title.lose = 损失:
+
+box.confirm.ok = 确定
+box.confirm.cancel = 取消
+box.confirm.back = 返回
+box.confirm.title = 消息提示
+
+pve.drop.powerdefense.tip = 防 +{0}%
+pve.drop.recoverlife.tip = {0} +{1}
+react.attack.tip = 攻 +{0}%
+react.defence.tip = 防 +{0}%
+react.speed.tip = 移 +{0}%
+react.reducespeed.tip = 移 -{0}%
+pve.milimedal.tip = 经验 +{0}
+
+building.ep.title.format = {0}-Lv{1}
+building.ep.leftbtn.0 = 管理
+building.ep.rightbtn.0 = 升级
+building.ep.rightbtn.1 = 
+
+crop.ep.title.format = {0}-Lv{1}
+crop.ep.leftbtn.0 = 生产
+crop.ep.leftbtn.1 = 
+crop.ep.leftbtn.2 = 生产
+crop.ep.leftbtn.3 = 
+crop.ep.leftbtn.4 = 生产
+crop.ep.leftbtn.5 = 
+crop.ep.rightbtn.0 = 升级
+crop.ep.rightbtn.1 = 
+
+city.tabname.0 = [#000000]基本信息
+city.tabname.1 = [#000000]驻军设置
+city.tabname.2 = [#000000]选服设置
+
+city.panel.0.title = [#000000][#ff0000]官府[#000000]，在此可以修改主公信息，进行附属城池的管理。
+city.panel.1.title = [#000000][#ff0000]官府[#000000]，在此可以修改主公信息，进行附属城池的管理。
+city.panel.2.title = [#000000][#ff0000]官府[#000000]，在此可以修改主公信息，进行附属城池的管理。
+
+gov.info.sound.pic.title = [#000000]声音管理
+gov.info.sound.0 = [#541b00]开启
+gov.info.sound.1 = [#541b00]静音
+gov.info.rename.nocash  = 修改失败,玉石不足!
+gov.info.rename.pic.title  = [#000000]统帅改名
+gov.info.rename.left.title  = 统帅名称
+gov.info.rename.btn  = [#f0d399]确定
+gov.info.rename.cost.left  = [#000000]需支付
+
+gov.info.nowar.pic.title  = [#000000]免战设置
+gov.info.nowar.btn  = [#f0d399]免战
+gov.info.nowar.normal.desc  = [#000000]请设置免战时间
+gov.info.nowar.truce.desc  = [#ff0000]免战中
+gov.info.nowar.cooldown.desc  = [#ff0000]冷却中
+gov.info.nowar.truce.time  = [#000000]剩余时间:
+gov.info.nowar.cooldown.time  = [#000000]冷却时间:
+
+
+gov.info.nowar.desc.title = [#000000]免战规则:
+gov.info.nowar.desc.0 = [#000000]1.设置免战令后，其他玩家无法攻击你的城池。
+gov.info.nowar.desc.1 = [#000000]2.免战期间攻击其他玩家城池免战会自动取消。
+gov.info.nowar.desc.2 = [#000000]3.每次免战结束后会有冷却时间，此期间无法再次设置免战，冷却结束，即可再次免战
+gov.info.nowcash.left = [#000000]现有
+
+city.info.rename.ok = 改名成功
+
+city.info.renamecommander = 统帅改名
+city.info.btnrename = [#f0d499]确认
+
+city.gar.cityinfo.picline0 =[#000000]城池信息
+city.gar.cityinfo.picline1 =[#000000]占领者信息
+city.gar.lordname.left = [#000000]城主:
+city.gar.brlordname.left = [#000000]占领者 :
+city.gar.level.left = [#000000]等级:
+city.gar.official.left = [#000000]官职:
+city.gar.team.left = [#000000]所属城邦:
+
+city.gar.pic.res.lose = [#000000]损失详情
+city.gar.res.lose.today = [#000000]今日损失
+city.gar.res.lose.max = [#000000]总共损失
+
+city.gar.pic.res.get = [#000000]征收详情
+city.gar.res.get.today = [#000000]今日征收
+city.gar.res.get.max = [#000000]总共征收
+
+city.gar.info.pic = [#000000]驻守详情
+city.gar.info.gen.left = [#000000]武将:
+city.gar.page.format = [#541b00]{0}/{1}
+
+
+city.gar.slaveitem.mine.slave = [#ff0000]被占领
+city.gar.slaveitem.slavecity.format = [#541b00]属城{0}
+city.gar.slaveitem.team.left = [#541b00]城邦:
+city.gar.notext = 无
+
+
+city.gar.btn.mail = [#f0d499]写信
+city.gar.btn.scout = [#f0d499]侦察
+city.gar.btn.reatk = [#f0d499]反攻
+city.gar.btn.gar = [#f0d499]驻防设置
+
+city.slave.desc = [#ff0000]官府[#000000]，城池核心建筑，控制城池免战和驻军设置。
+
+
+
+pvp.city.detail.cityname = [#000000]{0} (LV{1})
+pvp.city.detail.pathfinderleft = [#000000]征服者:
+pvp.city.detail.pathfinderdefault = [#000000]无
+pvp.city.detail.citystateleft = [#000000]城池状态:
+pvp.city.detail.playerstateleft = [#000000]玩家状态:
+pvp.city.detail.playerstate.1 = [#000000]在线
+pvp.city.detail.playerstate.2 = [#000000]离线
+
+pvp.hero.title.rank = 排名
+pvp.hero.title.playername = 玩家名称
+pvp.hero.title.level = 等级
+pvp.hero.title.achievement = 战绩
+pvp.hero.myrank = 我的排名:
+
+
+pvp.near.online.1 = 战斗中
+pvp.near.online.2 = 在线
+pvp.near.online.3 = 离线
+
+pvp.search.input.default.text = [#797979]输入对手名称
+pvp.msg.pic.enemy = 对手信息
+pvp.msg.playernameandlevel = [#541b00]玩家: [#000000]{0}  [#541b00]等级:[#000000]{1}
+pvp.msg.herorank = [#541b00]英雄榜:
+pvp.msg.prestige = [#541b00]声望:
+pvp.msg.protecttime = [#541b00]保护时间:
+pvp.msg.nowartime = [#541b00]免战时间:
+pvp.msg.pic.cond = 对战条件
+pvp.msg.cond.level = [#541b00]等级:
+pvp.msg.cond.consume = [#541b00]消费
+pvp.msg.btn.mail = [#f0d399]写信
+pvp.msg.btn.scout = [#f0d399]侦察
+pvp.msg.btn.battle = [#f0d399]出征
+pvp.msg.nocontentshow = [#000000]没有对战信息!
+pvp.msg.protect.to.battle = 出征失败，对方城池正处于保护时间中!
+pvp.msg.nowar.to.battle = 出征失败，对方城池正处于免战中！
+pvp.msg.nowar.mine.battle = 您的城池正处于免战状态，选择出征会取消免战，确定出征？
+pvp.msg.no.enough.gov.level = 掠夺其他玩家的城池需要官府等级达到{0}级
+
+pvp.lottery.paichu.btn = 排除
+pvp.lottery.huifu.btn = 恢复
+pvp.lottery.yipaichu.btn = 已排除
+pvp.lottery.huode.btn = 获得
+pvp.lottery.btn.1 = 直接获取
+pvp.lottery.btn.2 = 开始抽奖
+pvp.lottery.btn.tip = 今天还可以抽{0}次
+pvp.lottery.panel.tip = 主公，玉石不够啊！
+pvp.lottery.btn = [#f0d399]抽奖
+pvp.lottery.pic.title = 抽奖
+pvp.report.btn.back = [#f0d399]返回
+pvp.lorrery.tip = 抽奖前，可花费玉石排除不想要的牌。
+
+shop.tabname.0 = [#000000]充值
+shop.tabname.1 = [#000000]VIP
+shop.tabname.2 = [#000000]恢复购买
+shop.panel.0.title = [#000000]充值，在此可以向商人购买加速游戏所需的玉石。
+shop.panel.1.title = [#000000]
+shop.panel.2.title = [#000000]恢复已经消费的商品信息
+shop.costbtn.text = [#f0d399]购买
+shop.consumption.0 = [#000000]30CNY
+shop.consumption.1 = [#000000]6CNY
+shop.consumption.2 = [#000000]18CNY
+shop.consumption.3 = [#000000]50CNY
+shop.consumption.4 = [#000000]96CNY
+shop.desc.0 = [#000000]高级玉石包
+shop.desc.1 = [#000000]玉石袋
+shop.desc.2 = [#000000]玉石包
+shop.desc.3 = [#000000]玉石箱
+shop.desc.4 = [#000000]高级玉石箱
+shop.info.0 = [#000000]500
+shop.info.1 = [#000000]100
+shop.info.2 = [#000000]300
+shop.info.3 = [#000000]1000
+shop.info.4 = [#000000]2000
+shop.nowcash.left = [#000000]现有
+shop.buy.cash.left = [#000000]内有
+shop.comfirmbox.message = 确认购买吗？
+shop.comfirmbox.yes = [#ffffff]确认
+shop.comfirmbox.no = [#ffffff]取消
+shop.comfirmbox.fail = [#000000]购买失败
+shop.comfirmbox.fail.btn = [#f0d499]确认
+shop.payment.message.0 = 你不能购买，因为不是ios设备!
+shop.payment.message.1 = 你不能购买，因为你禁用了内购功能!
+shop.payment.message.2 = 你不能购买，因为你不在支持购买功能的设备上!
+shop.payment.list.nocontent  =  [#000000]目前不能购买
+shop.payment.product.invalid = 此商品目前不能购买
+shop.payment.storeStatus.invalid = 商品列表暂不可用
+
+vip.content.title = [#541b00]VIP{0} 权限介绍:
+vip.content.function = [#000000]可开启以下功能:
+vip.content.stateinfo.left = [#000000]充值30CNY（
+vip.content.stateinfo.left.test = [#000000]您只需要充值(
+vip.content.stateinfo.right = [#000000]500)享受VIP1特权服务{1}天 
+vip.content.stateinfo.right.test = [#000000]500)享受VIP1特权服务
+
+vip.box.title.left = [#000000]状态:
+vip.box.title.right = [#000000]VIP1
+vip.box.title.right.no = [#000000]您还不是VIP1
+vip.box.time.no = 非VIP
+
+vip.box.surplus = [#000000]剩余 
+vip.comfirmbox.fail = 购买失败
+vip.comfirmbox.success = 购买成功
+vip.comfirmbox.message1 = 确认开通吗？
+vip.comfirmbox.message2 = 您需要{0}玉石开通VIP1,确认前往充值购买玉石？
+vip.comfirmbox.message3 = 确认购买吗？
+vip.comfirmbox.yes = [#ffffff]确认
+vip.comfirmbox.no = [#ffffff]取消
+
+
+
+reconvey.pic.line = [#000000]恢复购买
+reconvey.content.nocontentshow =[#000000]没有需要恢复的信息
+reconvey.item.btn = [#f0d399]确认提交
+reconvey.tip.content.0 = 恢复购买失败!
+reconvey.tip.content.1 = 恢复购买成功!
+reconvey.tip.content.2 = 恢复购买失败!
+reconvey.tip.content.3 = 恢复购买失败!
+reconvey.tip.content.4 = 恢复购买失败!
+
+player.detail.level = lv{0}
+
+speedup.panel.title = 加速管理
+speedup.panel.nocontent1 = 目前无需加速升级！
+speedup.panel.nocontent2 = 此功能暂未开放！
+speedup.panel.btncancel = 取消
+speedup.panel.timeleft = 剩余时间：
+speedup.panel.now = 现有
+speedup.item.costcash = {0}
+speedup.cancel.content = 确定要取消选择的时间片?
+speedup.cancel.yesbtn = [#ffffff]确定
+speedup.cancel.nobtn = [#ffffff]取消
+speedup.confirm.army.content = 确定花费{0}玉石减少{1}%训练时间？
+speedup.confirm.default.content = 确定花费{0}玉石缩短{1}？
+speedup.confirm.content1 = 确定花费{0}玉石立即完成？
+
+
+
+nocash.content = 您的玉石不够,是否前往充值购买？
+nocash.yesbtn = [#ffffff]确定
+nocash.nobtn = [#ffffff]取消
+
+search.search.pic = 查找玩家
+search.search.inputleft = 输入玩家名称
+search.search.btn = [#f0d399]查找
+search.near.btn = [#f0d399]最近攻击
+search.near.pic = 最近来袭玩家
+search.near.result.pic = 搜索结果
+search.nosearch = 没有搜索到玩家！ 
+search.nonear = 没有最近来袭玩家！ 
+
+
+
+scout.select.title = 侦察
+scout.select.now = 现有
+scout.select.confirmbtn = [#f0d499]确定
+scout.confirm.content = 确定花费{0}玉石{1}？
+scout.confirm.yesbtn = [#ffffff]确定
+scout.confirm.nobtn = [#ffffff]取消
+
+scout.detail.title = 侦察报告
+scout.detail.owner.city = {0} 的城池
+scout.detail.res.title = 城池资源
+scout.detail.army.title = 驻兵信息
+scout.detail.nodef.desc = 对方是个空城，放心偷袭吧!
+scout.detail.army.life.format = {0}/{1}
+
+garrison.info.tabname.0 = [#000000]驻防设置
+garrison.panel.0.title  = [#000000]驻防设置界面可察看管理驻军的信息。
+
+garrison.info.withdraw.message = 撤军后,您将无军队驻防城池,您确定要撤防么？
+garrison.info.withdraw.yes = [#f0d399]确定
+garrison.info.withdraw.no = [#f0d399]取消
+garrison.info.garsuccess = 驻军设置成功
+garrison.info.pic.general = [#000000]选择武将
+garrison.info.pic.army = [#000000]选择兵种({0}/{1})
+garrison.info.armyitem.personnum = [#000000]{0}人
+garrison.info.army.btnconfirm.text = [#f0d399]驻防
+garrison.info.army.btnwithdraw.text = [#f0d399]撤防
+garrison.info.detail = [#000000]防守详情 :
+garrison.info.detail.armylimit = [#000000]兵力限制:
+garrison.info.detail.curarmy = [#000000]现有兵力:
+garrison.armyitem.person = [#000000]{0}人
+garrison.general.none = [#000000]您没有空闲武将可供驻守。
+garrison.general.nodefault = [#000000]请先设置防守武将。
+garrison.def.pic.title = [#000000]防守策略
+garrison.def.info = [#000000]离线时启用
+garrison.def.type.0 = [#000000]通常型
+garrison.def.type.1 = [#000000]固守型
+garrison.def.type.2 = [#000000]自定义
+
+garrison.gen.plan.0 = [#000000]自由追击
+garrison.gen.plan.1 = [#000000]范围追击
+garrison.gen.plan.2 = [#000000]原地攻击
+
+garrison.gen.plan.no = 未选择武将防守策略!
+garrison.army.plan.no = 未选择兵种防守策略!
+
+garrison.submit.gen = 请任命防守武将!
+garrison.submit.army = 请设置驻守兵力!
+
+
+
+battlewarn.title = 战斗警报
+battlewarn.item.btn.wait.name = [#f0d399]等待中
+battlewarn.item.btn.entry.name = [#f0d399]指挥
+battlewarn.item.beforebattime.left = [#000000]开战倒计时:
+battlewarn.item.afterbattime.left = [#000000]已开战:
+battlewarn.item.batfield.left = [#541b00]战场:
+battlewarn.nocontentshow = 您目前没有任何战斗发生!
+
+league.post.1 = 城邦主
+league.post.2 = 副城邦主
+league.post.3 = 成员
+
+lea.manage.tab.0 = [#000000]基本信息
+lea.manage.tab.1 = [#000000]城邦成员
+lea.manage.tab.2 = [#000000]玩家申请
+lea.manage.tab.3 = [#000000]邀请玩家
+lea.manage.tab.4 = [#000000]城邦事件
+
+lea.manage.panel.0 = [#000000]查看本城邦的基本信息，了解城邦发展状况
+lea.manage.panel.1 = [#000000]管理和查看城邦成员
+lea.manage.panel.2 = [#000000]处理好友或玩家发送的城邦申请信息
+lea.manage.panel.3 = [#000000]邀请好友加入城邦
+lea.manage.panel.4 = [#000000]查看城邦的事件信息，了解城邦发展动态
+
+lea.manage.base.pic.message = [#000000]城邦信息
+lea.manage.base.pic.intro = [#000000]城邦简介
+lea.manage.base.league.id = [#000000]城邦ID:
+lea.manage.base.league.name = [#000000]城邦名称:
+lea.manage.base.league.adminname = [#000000]城邦主:
+lea.manage.base.league.personnum = [#000000]人数:
+lea.manage.base.league.level = [#000000]城邦等级:
+lea.manage.base.league.honour = [#000000]城邦荣誉:
+lea.manage.base.league.rank = [#000000]城邦排名:
+
+lea.manage.base.btn.0 = [#f0d399]修改公告
+lea.manage.base.btn.1 = [#f0d399]解散城邦
+lea.manage.base.btn.2 = [#f0d399]退出
+lea.manage.base.quit.confrim = 主公，您确定要退出城邦？退出城邦{0}内无法创建和进入城邦。
+lea.manage.base.dismiss.confrim = 主公，您确定要解散城邦？解散城邦后{0}内无法创建和加入城邦。
+
+
+lea.manage.member.item.index = [#541b00]{0}.
+lea.manage.member.item.level = [#541b00]{0}级
+lea.manage.member.list.title = [#f0d399]成员列表
+lea.manage.member.list.page.format = [#541b00]{0}/{1}
+lea.manage.member.cont.pic.message = [#000000]成员信息
+lea.manage.member.membername = [#000000]成员:
+lea.manage.member.cityLevel = [#000000]等级:
+lea.manage.member.selfleague = [#000000]所属城邦:
+lea.manage.member.selfhonour = [#000000]个人荣誉:
+lea.manage.member.herorank = [#000000]英雄榜:
+lea.manage.member.prestige = [#000000]声望:
+lea.manage.member.leaguejob = [#000000]城邦职位:
+lea.manage.member.btn.0 = [#f0d399]遣散
+lea.manage.member.btn.1 = [#f0d399]写信
+lea.manage.member.remove.btn.tip = 主公，您确定要从城邦遣散{0}？
+lea.manage.member.exits.none1 = 主公，此城邦成员不存在。
+
+lea.manage.app.item.index = [#541b00]{0}.
+lea.manage.app.item.level = [#541b00]{0}级
+lea.manage.app.list.title = 申请者列表
+lea.manage.app.list.page.format = [#541b00]{0}/{1}
+lea.manage.app.picline = [#000000]申请者信息
+lea.manage.app.avatar.lv = lv{0}
+lea.manage.app.membername = [#000000]玩家:
+lea.manage.app.citylevel = [#000000]等级:
+lea.manage.app.herorank = [#000000]英雄榜:
+lea.manage.app.prestige = [#000000]声望:
+lea.manage.app.pass.btn = [#f0d399]通过
+lea.manage.app.refuse.btn = [#f0d399]拒绝
+lea.manage.app.nocontent = [#000000]目前城邦无申请者！
+lea.manage.app.refuse.confirm = 确认拒绝{0}的申请吗?
+
+lea.manage.invite.list.title = 推荐玩家
+lea.manage.invite.list.changeplayer.btn =[#f0d399]换一批
+lea.manage.invite.player.pic = [#000000]玩家信息
+lea.manage.invite.search.defaulttext = 输入玩家名称
+lea.manage.invite.search.btn = [#f0d399]搜索
+lea.manage.invite.membername = [#000000]玩家:
+lea.manage.invite.citylevel = [#000000]等级:
+lea.manage.invite.herorank = [#000000]英雄榜:
+lea.manage.invite.prestige = [#000000]声望:
+lea.manage.invite.inv.btn = [#f0d399]提出邀请
+lea.manage.invite.item.level = [#541b00]{0}级
+lea.manage.invite.list.nocontentshow = 目前暂无推荐的玩家!
+
+
+lea.manage.event.desc = [#000000]只保留3天的城邦事件信息
+lea.manage.event.page.format = [#541b00]{0}/{1}
+lea.manage.event.item.time = 时间:
+
+lea.lealist.toggle.0 = 全部城邦
+lea.lealist.toggle.1 = 未满城邦
+
+lea.lealist.tabname.0 = [#000000]城邦列表
+lea.lealist.panel.title = [#000000]将游戏内所有的城邦列出
+lea.lealist.leftlist.nocontent.1 = 目前没有城邦!
+lea.lealist.leftlist.nocontent.2 = 目前没有未满城邦!
+lea.lealist.leftlist.nocontent.3 = 搜索结果没有城邦!
+lea.lealist.search.text = 输入城邦ID或名称
+lea.lealist.search.text.invalid = 输入id或名字格式错误！
+lea.lealist.search.text.null = 主公，请输入城邦信息
+lea.lealist.search.btn = [#f0d399]搜索
+lea.lealist.item.id = [#541b00]ID:{0}
+lea.lealist.item.member = [#541b00]成员:{0}/{1}
+lea.lealist.item.member.format = [#541b00]{0}/{1}
+lea.lealist.content.pic.leamsg = [#000000]城邦信息
+lea.lealist.content.pic.leaintro = [#000000]城邦公告
+lea.lealist.content.leaid = [#000000]城邦ID:
+lea.lealist.content.leaname = [#000000]名称:
+lea.lealist.content.leaadmin = [#000000]城邦主:
+lea.lealist.content.person = [#000000]人数:
+lea.lealist.content.person.format = [#000000] {0}/{1}
+lea.lealist.content.lealevel = [#000000]城邦等级:
+lea.lealist.content.leahonour = [#000000]城邦荣誉:
+lea.lealist.content.learank = [#000000]城邦排名:
+lea.lealist.rbtn.0 = [#f0d399]创建城邦
+lea.lealist.rbtn.1 = [#f0d399]申请加入
+lea.lealist.rbtn.2 = [#f0d399]进入
+
+lea.detail.title = [#d3c399]城邦信息
+lea.detail.name.left = 名称:
+lea.detail.pernum.left = 人数:
+lea.detail.rank.left = 城邦排名:
+lea.detail.league.honour = 城邦荣誉:
+lea.detail.league.level = 城邦等级:
+lea.detail.city.res = 城池资源:
+lea.detail.explore.exp = 野地经验:
+lea.detail.present.limit = 输送上限:
+
+
+chat.tabname.0 = [#ca794c]世界
+chat.tabname.1 = [#909090]城邦
+chat.tabname.2 = [#8663b4]私聊
+chat.say.0 = [#ca794c]世界
+chat.say.1 = [#4d98d2]城邦
+chat.say.2 = [#8663b4]私聊
+chat.btn.submit = [#ffffff]输入
+chat.input.dialog.tip = 输入玩家名字
+chat.input.dialog.leftbtn = 确定
+chat.input.dialog.rightbtn = 取消
+chat.input.samename.tip = 不能输入自己名字!
+chat.item.char.i =  我
+chat.item.char.you =  你
+chat.item.char.say =  说
+chat.item.char.treat =  对
+
+chat.time.day = 1天之前
+chat.time.hour = {0}小时之前
+chat.time.minute = {0}分钟之前
+
+chat.world.not.enouth.cash = 世界聊天需要消耗1个玉石。
+chat.notice.no.content = 欢迎进入三国之杀场3D          祝大家游戏愉快。
+
+
+rescontrol.leftbtn.produce = [#f0d399]生产
+rescontrol.leftbtn.speed = [#f0d399]生产加速
+rescontrol.leftbtn.crop = [#f0d399]收获
+rescontrol.rightbtn.upgrade = [#f0d399]升级
+rescontrol.rightbtn.speed = [#f0d399]升级加速
+rescontrol.time.produce = [#000000]生产剩余时间:
+rescontrol.time.upgrade = [#000000]升级剩余时间:
+rescontrol.title = [#000000]某种资源
+
+res.unopen.need.level = 升级需官府[#ff0000]{0}级[#ffffff]。
+res.unopen.need.gold = 升级需金币[#ff0000]{0}[#ffffff]。
+res.unopen.need.cash = 升级需玉石[#ff0000]{0}[#ffffff]。
+res.unopen.confirm.content = 确定花费{0}金币开放{1}吗?
+res.unopen.confirm.content1 = 确定花费{0}金币,{1}玉石开放{2}吗?
+res.unopen.confirm.yes = 确定
+res.unopen.confirm.no = 取消
+
+
+res.vip.confirm.content = 主公，此资源田仅对VIP开放。
+res.vip.confirm.yes = 确定
+res.vip.confirm.no = 取消
+
+
+equip.repair.btn = 修理 
+equip.repairall.btn = 全修理
+equip.upgrade.btn = 强化
+equip.sell.btn = 出售
+equip.repair.confirm = 修理该物品需要金币：{0}
+equip.repairall.confirm = 修理全部物品需要金币：{0}
+equip.sell.confirm = 确认出售{0}?
+equip.attr.name = {0}{1}级
+equip.attr.level4use = [#6e2f0c]武将{0}级以上可以使用 
+equip.attr.durability = [#6e2f0c]耐久:[#000000]{0}/{1}
+equip.attr.attackBonus = [#6e2f0c]攻击:[#000000]+{0}
+equip.attr.defenseBonus = [#6e2f0c]防御:[#000000]+{0}
+equip.attr.hitpointBonus = [#6e2f0c]生命:[#000000]+{0}
+equip.attr.uplimit = [#6e2f0c]带兵:[#000000]+{0}
+equip.attr.charm = [#6e2f0c]魅力:[#000000]+{0}
+equip.attr.execution = [#6e2f0c]土木:[#000000]+{0}
+equip.attr.production = [#6e2f0c]经商:[#000000]+{0}
+equip.attr.drill = [#6e2f0c]司农:[#000000]+{0}
+equip.upgrade.rate = 成功几率{0}%
+equip.upgrade.btn.continue = 继续强化
+equip.upgrade.reqitemdesc = {0}{1}级{2}个
+equip.sell.ok = 出售成功，获得金币{0}
+
+equip.gen.attr.life = [#6e2f0c]生命：[#000000]{0}
+equip.gen.attr.defense = [#6e2f0c]防御：[#000000]{0}
+equip.gen.attr.attack = [#6e2f0c]攻击：[#000000]{0}
+equip.gen.attr.uplimit = [#6e2f0c]带兵：[#000000]{0}
+
+equip.gen.attr.drill = [#6e2f0c]司农：[#000000]{0}
+equip.gen.attr.produce = [#6e2f0c]经商：[#000000]{0}
+equip.gen.attr.execute = [#6e2f0c]土木：[#000000]{0}
+equip.gen.attr.charm = [#6e2f0c]魅力：[#000000]{0}
+
+improve.desc.title.1 = 储藏术
+improve.desc.content.1 = [#6e2f0c]使用一些民间的方法，将仓库内储藏的资源，掩藏起来，防止侵略者抢夺的有力手段。
+improve.mailtitle.1 = [#000000]通过仓库改良，可以让我们的仓库更加高效，更加安全地存储本城的资源。
+improve.desc.title.2 = 治疗术
+improve.desc.content.2 = [#6e2f0c]治疗术可以提升战后武将恢复生命的比率
+improve.mailtitle.2 = [#000000]通过将台改良技术，可有效的调整战后武将恢复生命比率
+improve.desc.title.3 = 回魂术
+improve.desc.content.3 = [#6e2f0c]回魂术可以提升战后损失部队进入伤兵营的比例
+improve.mailtitle.3 = [#000000]通过伤兵改良技术，可以有效的调整战后伤兵损失比率
+improve.desc.title.4 = 维修术
+improve.desc.content.4 = [#6e2f0c]改良城防维修技术，将城防损失降到最低，提升自动修复率
+improve.mailtitle.4 = [#000000]通过城防改良技术，可以有效的调整战后城防损失比率
+
+improve.cur.pic = 当前等级
+improve.cur.namelv = [#000000]{0}{1}级
+improve.next.pic = 下一等级
+improve.cond.pic = 升级条件
+improve.cond.full.level = [#000000]您已达到最高等级
+improve.cond.level.left = [#000000]{0}等级:
+improve.cond.level.right = {0}级
+improve.cond.costtime = 耗时:
+improve.btn.upgrade = [#f0d399]升级
+improve.btn.speed = [#f0d399]加速
+
+bubble.tip.search.btn = 有劳将军
+bubble.tip.search.text = 在下这就启程，前去寻访人才共谋大事。若能成功寻访到，还需主公在{0}小时之内招募此武将。
+
+bubble.tip.function.btn = 我出发啦
+bubble.tip.function.text.1 = 在下一定不负主公厚望，圆满完成升级督造任务。
+bubble.tip.function.text.2 = 在下一定不负主公厚望，圆满完成生产督造任务。
+bubble.tip.function.text.3 = 在下一定不负主公厚望，圆满完成科技督造任务。
+bubble.tip.function.text.4 = 在下一定不负主公厚望，圆满完成训练督造任务。
+
+bubble.tip.btn.tip = 我知道了
+
+bubble.tip.txt.1 =内政大臣：主公谨记，在点将台安排合理的武将去监督内政，将有很好效果。
+bubble.tip.txt.2 =财政大臣：知道吗，在妙趣园里可以获得很多不错的金钱奖励。
+bubble.tip.txt.3 =市民张小二：听说去征战黄巾军可以获得很好的装备，我也想去试试。
+bubble.tip.txt.4 =军机大臣：要打赢黄巾军，盾兵的培养很重要，武将在战场中有很关键的作用。
+
+bubble.tip.txt.205 = 城池建造怎么能少的了我
+bubble.tip.txt.206 = 我真的能给粮食增产，信不信由你
+bubble.tip.txt.207 = 你的部队不强大怎么抵御强敌
+bubble.tip.txt.208 = 提高改良技术你不觉的帮助很大么？
+
+action.point.format = {0}/{1}
+
+upgrade.list.title = [#d3c399]建造队列
+upgrade.list.comp.level = {0}级
+
+goods.10.box.message = 确定花费{0}玉石设置免战?
+goods.11.box.message = 确定花费{0}玉石购买军令?
+goods.buy.yesbtn = [#ffffff]确定
+goods.buy.nobtn = [#ffffff]取消
+
+goods.panel.10.title = 免战
+goods.panel.11.title = 购买军令
+goods.panel.now.left.desc = 现有
+war.leave.tip = 确定要退出战场？
+war.leave.pve.title = 全军撤退
+
+toolbar.0.txt = [#f0d499]排行
+toolbar.1.txt = [#f0d499]驻防
+toolbar.2.txt = [#f0d499]装备
+toolbar.3.txt = [#f0d499]战报
+toolbar.4.txt = [#f0d499]消息
+toolbar.5.txt = [#f0d499]公告
+toolbar.6.txt = [#f0d499]内政
+toolbar.7.txt = [#f0d499]城邦
+toolbar.8.txt = [#f0d499]掠夺
+toolbar.9.txt = [#f0d499]战役
+toolbar.10.txt = [#f0d499]聊天
+toolbar.11.txt = [#f0d499]充值
+toolbar.12.txt = [#f0d499]任务
+
+city.res.0.funname = 民居区
+city.res.1.funname = 粮田区
+city.res.2.funname = 木材区
+
+city.explore.funname = 野外探索
+
+miss.tabname.0 = [#000000]主线任务
+miss.tabname.1 = [#000000]每日任务
+miss.tabname.2 = [#000000]支线任务
+miss.panel.0.title = 
+miss.panel.1.title = 
+miss.panel.2.title = 
+
+miss.missbox.nomiss = 没有相关任务！
+miss.missbox.title = 任务列表
+
+miss.content.title.left = [#541b00]任务名:
+miss.content.target.left = [#541b00]目标:
+miss.content.info.title = [#541b00]详情:
+miss.content.reward.title = [#541b00]奖励:
+miss.content.get.reward = [#f0d399]领取奖励
+
+city.upgrade.queue.full = 玉石不足，请进入充值购买!
+
+
+91.buy.message.unipayasyn = 购买参数有误!
+91.buy.message.-12 = 用户取消操作!
+91.buy.message.-2 = 网络连接错误!
+91.buy.message.-10 = 服务端处理失败!
+91.buy.message.-4004 = 支付订单已提交!
+91.buy.message.default = 购买过程发生错误!
+91.buy.message.success = 购买成功!
+91.buy.message.unlogin = 由于您长时间未操作游戏，请退出游戏重新登录后购买!
+91.shop.price.format = [#000000]需{0}个91豆
+
+
+91.city.info.pic = [#000000]账号管理
+91.city.info.btn.center = [#f0d399]91平台
+91.city.info.btn.logout = [#f0d399]注销账号
+
+uc.city.info.pic = [#000000]账号管理
+uc.city.info.btn.center = [#f0d399]UC平台
+uc.city.info.btn.logout = [#f0d399]注销账号
+
+wistone.acc.email.invalid = 邮箱格式不正确
+wistone.acc.password.invalid = 密码由6到18位字母、数字、下划线、特殊符号组成!
+wistone.acc.password.retype.invalid = 两次密码输入不一致
+wistone.acc.register.ok = 注册成功
+wistone.acc.modifPwd.ok = 密码修改成功
+
+wistone.acc.title.email = [#541b00]登录账号：{0}
+wistone.acc.title.tempName = [#ff0000]临时账号：{0}
+wistone.acc.title.modifyPwd = [#f0d399]修改密码
+wistone.acc.title.switchAccount = [#f0d399]切换账户
+wistone.acc.title.register = [#f0d399]注册
+wistone.acc.title.loginAccount = [#f0d399]登录
+wistone.acc.title.loginout = [#f0d399]注销
+
+account.panel.login.title=[#541b00]登录账号
+
+
+city.upgrade.cash.no.enough = 玉石不足!
+city.upgrade.cash.no.open = 暂未开放!
+
+city.gov.upgrade.protect.tip = 主公,官府升至{0}级,将脱离新手保护期，确定升级?
+equip.upgrade.cost.tip = 主公,强化装备需要消耗{0}{1},确认强化?
+equip.upgrade.cost.casht = 玉石,
+equip.upgrade.cost.goldt = 金币,
+
+wistone.alipay.sign.error = 支付宝签名错误，错误信息 : {0}
+wistone.alipay.unknown.error = 充值失败!
+wistone.alipay.install.mobile = 请先安装支付宝插件后在充值！
+wistone.alipay.finish = 充值成功，请稍后刷新资源查看到账信息.
+wistone.alipay.4000 = 支付未成功
+wistone.alipay.4003 = 您绑定的支付宝账户被冻结或不允许支付
+wistone.alipay.4004 = 您的支付宝已解除绑定
+wistone.alipay.4005 = 您的支付宝绑定失败或没有绑定
+wistone.alipay.4006 = 订单支付失败
+wistone.alipay.6000 = 支付服务正在进行升级操作，不能进行充值
+wistone.alipay.6001 = 用户中途取消支付操作。
+wistone.alipay.6002 = 网络连接异常。
+
+wistone.shezhou.unknown.error = 充值失败!
+wistone.shezhou.cancel = 用户取消充值!
+wistone.shezhou.102 = 订单号重复
+wistone.shezhou.103 = 恶意用户
+wistone.shezhou.104 = 序列号,密码不正确
+wistone.shezhou.106 = 系统繁忙,暂停提交
+wistone.shezhou.107 = 充值卡卡内余额不足，不能充值
+wistone.shezhou.908 = 支付已经处理完成,不能重复支付
+wistone.shezhou.909 = 支付不符合重复支付的条件
+wistone.shezhou.913 = 该地方卡暂时不支持
+wistone.shezhou.914 = 支付金额非法
+wistone.shezhou.915 = 充值卡不能支付该金额
+wistone.shezhou.916 = 不支持该充值卡的支付
+wistone.shezhou.0 = 网络连接失败
+
+360.buy.message.unlogin = 请登录后再支付!
+360.buy.message.finish = 充值成功，请稍后刷新资源查看到账信息.
+360.buy.product.name = 三国之杀场
+
+mi.fail.login = 登陆失败请重新登陆。
+uc.no.login = 请登陆UC账号后进入游戏。
+uc.buy.message.finish = 订单提交成功，请稍后刷新资源查看到账信息.
+
+uc.center.message.contact = 三国之杀场  客服电话:010-84542845
+uc.unlogin.message = 您必须登录方可进入游戏！
+
+gov.server.title.name = [#000000]选服设置
+gov.server.cur.desc = [#000000]当前服务器:
+gov.server.item.name.format = [#000000]{0}服 {1}
+gov.server.item.state.1 = [#000000]畅通
+gov.server.item.state.2 = [#000000]拥挤
+gov.server.item.state.3 = [#000000]爆满
+gov.server.item.state.4 = [#000000]停服
+gov.server.list.name = 服务器名称
+gov.server.list.state = 服务器状态
+gov.server.enter.btn = [#f0d399]进入
+
+ws.acc.back.btn = 返回
+ws.acc.forget.pwd.btn = 忘记密码
+ws.acc.login.btn = 登陆
+ws.acc.login.email = 邮箱：
+ws.acc.login.pwd = 密码：
+ws.acc.remember.pwd = 记住密码
+ws.acc.modify.pwd.cancel.btn = 取消
+ws.acc.modify.pwd.modify.btn = 修改
+ws.acc.modify.pwd.old.pwd = 旧密码：
+ws.acc.modify.pwd.make.sure = 确认密码：
+ws.acc.modify.pwd.title = 修改密码
+ws.acc.reg.title = 临时账号注册为正式账号
+ws.acc.reg.email.tip = 邮箱地址是找回密码的唯一途径！
+ws.acc.reg.btn = 注册
+ws.acc.switch.title = 切换顽石账号
+ws.acc.tmp.txt = 您正在使用临时账号，临时账号可能随时会被删除。为了您的数据安全，请您尽快注册为正式账号。
+ws.acc.tmp.later.btn = 以后再说
+ws.acc.tmp.reg.btn = 现在注册
+ws.acc.panel.title=[#000000]账号管理
+
+sg.height.score = 最高积分
+sg.my.rank = 我的排名
+sg.select.card.start.game = 请选择一张纸牌，开启小游戏！
+sg.scout.title = 妙趣园
+sg.overview = 任务概述：
+sg.state = 玩法说明：
+sg.overview.wood = 选择各种道具阻碍企图冲破我们防线的残兵，每砸死一个敌人都会有奖励。
+sg.overview.stone = 指挥你的投石部队尽可能多的砸中正在逃逸的残兵，每砸死一个敌人都会有奖励。
+sg.overview.gold = 天上掉钱不是梦！这是财神对你的额外奖励哦。
+sg.state.wood = 使用手指拖动下方不断出现的道具到屏幕中，就可以按照指定路线滚落兵种。
+sg.state.stone = 使用手指点击屏幕即可落石砸兵，长按屏幕将落下大石头，砸死骑兵需要用大石头！
+sg.state.gold = 使用手指控制武将尽可能多的接住从天而降的钱币，多拿多得！
+sg.guize = 规则说明
+sg.countdown.text = 冷却中剩余时间:
+
+new.player.command = 确定
+new.player.quxiao = 取消
+new.player.tiaoguo = 跳过
+new.player.content1 = 主公您好，欢迎来到三国之杀场。我将带领您熟悉三国世界，现在就开始我们的新手之旅吧！
+new.player.content2 = 主公您不需要我的讲解了吗？在游戏中您如遇到问题随时给GM发消息哦！
+new.player.content3 = 主公，您已经掌握了战场指挥的技巧，接下来就是通过完成任务壮大城池，富国强兵了！
+
+battle.skill.1 = 火烧连营
+battle.skill.2 = 全力出击
+battle.skill.3 = 铜墙铁壁
+battle.skill.4 = 急速行军
+battle.skill.5 = 灵魂召唤
+battle.skill.6 = 冰霜之痛
+
+leave.war.btn = 离开战场
+
+report.detail.army.kind = 兵种
+report.detail.army.count = 伤亡
+report.detail.army.armydie.count = 兵损情况
+
+delete.all = [#f0d399]删除全部
+chat.private.command.btn = 确认
+chat.private.quit.btn = 取消
+lock.item.condition = 开放条件
+lock.item.lock = 未开放
+pve.explore.panel.title = 塞外探索
+bag.item.upgrade.panel.title = [#000000]装备强化
+bag.item.upgrade.requires = 强化材料
+general.equipment.panel.box.title = 道具箱
+general.equipment.panel.tidy.btn = 整理
+general.equipment.panel.attr.title = 装备属性
+general.equipment.panel.attr.no.item.info = 暂无内容
+general.equipment.panel.general.title = 武将装备
+general.manager.panel.panel.recruit.no.content.show = [#000000]没有可供招募的武将信息
+gov.mar.panel.slave.panel.title = [#f0d399]驻军列表
+slave.list.item = [#541b00]军团:
+help.panel.goon.btn = 继续
+help.pane.tip.1 = 横向拖拽，可放大或缩小
+help.pane.tip.2 = 单指移屏
+help.pane.tip.3 = 反向滑动屏幕，则可旋转
+pve.finger.help.panel = 单指划线移动部队,双指划屏/旋转/缩放
+user.agreement.panel.title = 用户许可协议
+
+ann.content.mail.time = [#541B00]时间：
+ann.content.mail.title = [#541B00]标题：
+
+pve.goal.panel.big.title.0 = 当前目标：
+pve.goal.panel.big.title.1 = 胜利条件:
+pve.goal.panel.big.title.2 = 失败条件:
+twm.reg.title=注册账户
+twm.acc.tmp.txt=为了保护玩家利益，建议玩家进行注册
+twm.buy.comfirmbox.success = 购买成功，请刷新资源查看到账信息。
+twm.buy.comfirmbox.faild = 购买失败
+
+
+pay.card.type.0 = 移动
+pay.card.type.1 = 联通
+pay.card.type.2 = 电信
+pay.select.type.panel.title = 神州付
+pay.choose.pay.way.title = 选择支付方式
+pay.select.type.panel.card.num = 充值卡序列号：
+pay.select.type.panel.card.pwd = 充值卡密码：
+pay.select.type.panel.catd.type = 充值卡类型：
+pay.panel.pay = 充值
+pay.panel.back = 返回
+pay.panel.pswcardnum.null = 充值卡信息错误，请核实填写充值卡信息
+pay.mi.coin.finish = 充值成功，请稍后刷新资源查看到账信息。
+pay.mi.faild = 充值失败。
+pay.mi.card.faild.20000 = 支付过程出现错误，请您稍后重试。
+pay.mi.card.faild.20001 = 充值卡号码错误，请核实充值卡信息。
+pay.mi.card.faild.20002 = 充值卡密码错误，请输入正确的密码。
+pay.mi.card.faild.20004 = 充值卡信息错误，请核实充值卡信息。
+pay.mi.card.faild.20005 = 充值卡面值错误，请使用正确的充值卡充值。
+
+
+
+
+
+lea.city.detail.picline = 城池信息
+lea.city.detail.playername = 玩家:
+lea.city.detail.playerlv = 等级:
+lea.city.detail.joinleague = 所属城邦:
+lea.city.detail.honour = 个人荣誉:
+lea.city.detail.herorank = 英雄榜:
+lea.city.detail.prestige = 声望:
+lea.city.detail.protecttime = 保护时间:
+lea.city.detail.nowartime = 免战时间:
+lea.city.detail.reqcondtion.title = 对战条件
+lea.city.detail.reqcondtion.lv = 等级:
+lea.city.detail.reqcondtion.costap = 消耗
+lea.city.detail.icon.level.format = lv{0}
+
+lea.city.detail.btn.mail = [#f0d399]写信
+lea.city.detail.btn.scout = [#f0d399]侦察
+lea.city.detail.btn.battle = [#f0d399]出征
+lea.city.detail.btn.enter = [#f0d399]进入
+lea.city.detail.btn.resource = [#f0d399]输送
+
+lea.toolbar.0.txt = [#f0d499]城邦管理
+lea.toolbar.1.txt = [#f0d499]敌对城邦
+lea.toolbar.2.txt = [#f0d499]战报
+lea.toolbar.3.txt = [#f0d499]驻防
+lea.toolbar.4.txt = [#f0d499]消息
+lea.toolbar.5.txt = [#f0d499]排行
+lea.toolbar.6.txt = [#f0d499]城邦列表
+lea.toolbar.7.txt = [#f0d499]掠夺
+lea.toolbar.8.txt = [#f0d499]主城
+lea.toolbar.9.txt = [#f0d499]战役
+lea.toolbar.myleague = [#f0d499]我的城邦
+lea.toolbar.myleague.tip = 主公，您的城邦已不存在，点击确定会返回经营区
+
+lea.createlea.tab.0 = [#000000]创建城邦
+lea.createlea.panel.0.title = [#000000]创建城邦，发展三国。
+lea.createlea.pic.info = [#000000]城邦信息
+lea.createlea.league.name.title = [#000000]城邦名称
+lea.createlea.league.name.default = 输入城邦ID或名称
+lea.createlea.league.name.desc = [#000000]2-7个字符，全服唯一
+lea.createlea.league.intro.title = [#000000]城邦公告
+lea.createlea.league.intro.default = 致力发展三国最强城邦，争霸江湖。三国世界，唯我独尊！
+lea.createlea.league.cond.create = [#000000]创建条件
+lea.createlea.league.cond.colon = [#000000]:
+lea.createlea.league.cond.desc = [#000000]城邦公告内容限定为170个字符以内
+lea.createlea.league.create.btn = [#f0d499]创建
+lea.createlea.tip.name.min = 主公，您的城邦名称太短！
+lea.createlea.tip.name.max = 主公，您的城邦名称太长！
+lea.createlea.tip.name.same = 主公，您的城邦名称与其他城邦名称相同，这会妨碍到您的名声！
+lea.createlea.tip.notice.max = 主公，您的城邦公告太长！
+
+
+lea.oppose.tab.0 = [#000000]敌对城邦
+lea.oppose.tab.1 = [#000000]征服城邦
+lea.oppose.panel.0.title = 
+lea.oppose.panel.1.title = 
+lea.oppose.panel.null.info.0 = 暂无敌对城邦信息 
+lea.oppose.panel.null.info.1 = 暂无征服城邦信息
+
+
+
+lea.oppose.sheetTitle.leaname = 城邦名称
+lea.oppose.sheetTitle.id = 城邦ID
+lea.oppose.sheetTitle.abswin = 净胜
+lea.oppose.input.default.text = 输入城邦id或名称
+lea.oppose.btn.enter = [#f0d399]进入
+
+lea.conquer.sheetTitle.leaname = 城邦名称
+lea.conquer.sheetTitle.id = 城邦ID
+lea.conquer.sheetTitle.conquerval = 征服值
+lea.conquer.sheetTitle.fame = 城邦荣誉
+lea.conquer.input.default.text = 输入城邦id或名称
+lea.conquer.btn.enter = [#f0d399]进入
+lea.conquer.my.conquer.text = [#000000]我的城邦征服值:{0}
+
+lea.none.have.city.level = 主公，城池等级未达到{0}级，无法查看城邦信息！
+pve.toolbar.league.btn = [#f0d499]城邦
+
+lea.present.tabname.0 = [#000000]输送资源
+lea.present.panel.0.title = 
+lea.present.item.num = [#000000]输送数量: {0}
+lea.present.btn.send = [#f0d399]确定
+lea.present.info.once = [#000000]每人每天只能赠送一次
+lea.present.nocontentshow = [#000000]您城池资源严重不足，还是先照顾好自己吧!
+
+lea.muti.pve.tip = 多人PVE暂未开放，敬请期待!
+lea.manage.storage.res.format = {0}/{1}
